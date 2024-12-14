@@ -20,6 +20,6 @@ app.use(cors({ origin: 'http://localhost:3000', credentials: true })); // Enable
 app.use('/api/vehicles', authenticate, vehicleRoutes);
 app.use('/api/auth', authRoutes);
 
-app.listen(5000, () => {
-  console.log('Server is running on port 5000');
+app.listen(8000, () => {
+  console.log('Server is running on port 8000');
 });
